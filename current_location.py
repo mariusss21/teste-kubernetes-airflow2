@@ -32,7 +32,7 @@ def print_current_directory():
 
     print(folders)
 
-    directory = current_directory + '/dags/repo/dags'
+    directory = current_directory + '/dags/repo'
 
     # List all files in the specified directory
     files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
